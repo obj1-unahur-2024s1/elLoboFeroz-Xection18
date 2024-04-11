@@ -150,8 +150,7 @@ object abuelita {
 }
 
 object canasta {
-	var numero = 1.randomUpTo(22)
-	var cantidadDeManzanas = numero.truncate(0)  
+	var cantidadDeManzanas = 1.randomUpTo(22).truncate(0)  
 	
 	method cantidadDeManzanas() {
 		return cantidadDeManzanas
